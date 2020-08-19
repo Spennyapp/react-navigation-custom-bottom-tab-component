@@ -1,11 +1,11 @@
 {
-  "name": "react-navigation-custom-bottom-tab-component",
+  "name": "react-navigation-mercury",
   "main": "./index.js",
-  "version": "1.1.1",
+  "version": "1.1.8",
   "author": "Grzegorz Mandziak (alimek)",
   "description": "ReactNavigation - Custom BottomTabComponent",
   "license": "MIT",
-  "repository": "https://github.com/alimek/react-navigation-custom-bottom-tab-component",
+  "repository": "https://github.com/Spennyapp/react-navigation-custom-bottom-tab-component",
   "peerDependencies":  {
     "react-native": "*",
     "react-navigation": "^3.0.9"
