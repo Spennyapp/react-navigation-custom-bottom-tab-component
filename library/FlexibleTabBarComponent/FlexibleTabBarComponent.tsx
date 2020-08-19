@@ -102,11 +102,13 @@ class FlexibleTabBarComponent extends React.Component<Props> {
         toValue: defaultFlexValue,
         duration,
         easing: Easing.linear,
+        useNativeDriver: true,
       }),
       Animated.timing(this.itemWidthAnimations[state.index], {
         toValue: activeFlexValue,
         duration,
         easing: Easing.linear,
+          useNativeDriver: false,
       }),
       ...routes.map((_route, index) =>
         Animated.timing(this.textAnimation[index], {
@@ -252,7 +254,6 @@ class FlexibleTabBarComponent extends React.Component<Props> {
       <SafeAreaView style={[styles.container, style]}>
         {this.renderAnimatedBackground()}
         {routes.map((route, key) => {
-          console.log(route);
           const focused = key === state.index;
           return (
             <TouchableWithoutFeedback
