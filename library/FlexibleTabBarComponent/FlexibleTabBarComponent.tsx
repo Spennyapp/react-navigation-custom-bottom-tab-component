@@ -102,7 +102,7 @@ class FlexibleTabBarComponent extends React.Component<Props> {
         toValue: defaultFlexValue,
         duration,
         easing: Easing.linear,
-        useNativeDriver: true,
+        useNativeDriver: false,
       }),
       Animated.timing(this.itemWidthAnimations[state.index], {
         toValue: activeFlexValue,
