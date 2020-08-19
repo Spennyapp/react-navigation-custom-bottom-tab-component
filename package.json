@@ -1,7 +1,8 @@
 {
-  "name": "react-navigation-custom-bottom-tab-component-lib",
-  "homepage": "https://alimek.github.com/react-navigation-custom-bottom-tab-component/",
+  "name": "react-navigation-mercury",
+  "homepage": "https://github.com/Spennyapp/react-navigation-custom-bottom-tab-component",
   "main": "node_modules/expo/AppEntry.js",
+  "version": "1.1.3",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
