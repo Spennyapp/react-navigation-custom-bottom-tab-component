@@ -279,7 +279,7 @@ class FlexibleTabBarComponent extends React.Component<Props> {
                         {
                           scale: this.currentItem.interpolate({
                             inputRange: routes.map((_route, index): number => index),
-                            outputRange: routes.map((_route, index): number => (index === key ? 1 : 0.7)),
+                            outputRange: routes.map((_route, index): number => index),
                           }),
                         },
                       ],
